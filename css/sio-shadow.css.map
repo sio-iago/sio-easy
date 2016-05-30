@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gCAAgC;AAChC,gCAAgC;AAChC,gCAAgC;AAMhC,OAAQ;EACN,UAAU,EALC,iCAA8B;EAMzC,UAAU,EAJQ,IAAI;EAMtB,aAAQ;IACN,UAAU,EARK,iCAA8B",
+"sources": ["sio-shadow.scss"],
+"names": [],
+"file": "sio-shadow.css"
+}

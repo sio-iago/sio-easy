@@ -1,0 +1,16 @@
+/* ========================== */
+/* SIO Easy Shadows           */
+/* ========================== */
+
+$shadow-box: 1px 3px 6px 0 rgba(0,0,0,0.4);
+$shadow-box-hover: 1px 6px 10px 0 rgba(0,0,0,0.5);
+$shadow-transition: 0.5s;
+
+.shadow {
+  box-shadow: $shadow-box;
+  transition: $shadow-transition;
+
+  &:hover {
+    box-shadow: $shadow-box-hover;
+  }
+}
