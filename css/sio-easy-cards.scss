@@ -1,0 +1,349 @@
+/* ======================== */
+/* SIO Easy Custom Variables     */
+/* ======================== */
+
+/* Card Light */
+$card-light-background: #fff;
+$card-light-border: 1px solid #ececec;
+$card-light-header: #0f0f0f;
+$card-light-subtitle: #b2b2b2;
+$card-light-content: #5c5c5c;
+
+/* Card Dark */
+$card-dark-background: #2a2a2a;
+$card-dark-border: 1px solid #000;
+$card-dark-header: #fff;
+$card-dark-subtitle: #d4d4d4;
+$card-dark-content: #fff;
+
+/* Card Sea */
+$card-sea-background: #045A9B;
+$card-sea-border: 1px solid #046D8B;
+$card-sea-header: #FFF;
+$card-sea-subtitle: #B8E0EE;
+$card-sea-content: #EFEFEF;
+
+/* Card Fire */
+$card-fire-background: #9F1824;
+$card-fire-border: 1px solid #9F1824;
+$card-fire-header: #FCF2C8;
+$card-fire-subtitle: #F0D1D1;
+$card-fire-content: #FCF2C8;
+
+/* Card Forest */
+$card-forest-background: #DDE2A4;
+$card-forest-border: 1px solid #DDE2A4;
+$card-forest-header: #476144;
+$card-forest-subtitle: #668063;
+$card-forest-content: #476144;
+
+/* Card Earth */
+$card-earth-background: #564334;
+$card-earth-border: 1px solid #564334;
+$card-earth-header: #FFFAB3;
+$card-earth-subtitle: #CFB590;
+$card-earth-content: #FFFAB3;
+
+/* Card Air */
+$card-air-background: #E3F7FE;
+$card-air-border: 1px solid #E3F7FE;
+$card-air-header: #2E4859;
+$card-air-subtitle: #6DA59C;
+$card-air-content: #2E4859;
+
+/* Card Winter */
+$card-winter-background: #EDEDF2;
+$card-winter-border: 1px solid #EDEDF2;
+$card-winter-header: #65727A;
+$card-winter-subtitle: #8F9A9C;
+$card-winter-content: #65727A;
+
+/* Card Autumn */
+$card-autumn-background: #A84818;
+$card-autumn-border: 1px solid #A84818;
+$card-autumn-header: #F6D5AD;
+$card-autumn-subtitle: #F6B794;
+$card-autumn-content: #F6D5AD;
+
+/* Card Lotus */
+$card-lotus-background: #571B3C;
+$card-lotus-border: 1px solid #571B3C;
+$card-lotus-header: #F8DFCF;
+$card-lotus-subtitle: #DFBFCF;
+$card-lotus-content: #F8DFCF;
+
+/* Card Gold */
+$card-gold-background: #C39738;
+$card-gold-border: 1px solid #C39738;
+$card-gold-header: #5E4318;
+$card-gold-subtitle: #7F4311;
+$card-gold-content: #5E4318;
+
+/* Card Leaf */
+$card-leaf-background: #6AAD1C;
+$card-leaf-border: 1px solid #A7CD2C;
+$card-leaf-header: #F0F2DD;
+$card-leaf-subtitle: #E2FF9E;
+$card-leaf-content: #F0F2DD;
+
+/* ======================== */
+/* SIO Easy Easy Cards Style          */
+/* ======================== */
+.card {
+
+    padding: 0px;
+
+    /* Image settings */
+    img {
+        width: 100%;
+    }
+
+    /* Header settings */
+    .card-header {
+
+        padding: 12px 0 10px 12px;
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            font-weight: 300;
+        }
+
+        .card-subtitle {
+            padding-top: 6px;
+        }
+    }
+
+    /* Body settings */
+    .card-body {
+
+        padding: 10px 12px;
+        font-weight: 300;
+
+        p {
+            font-size: 90%;
+        }
+    }
+}
+
+.card-light {
+
+    background-color: $card-light-background;
+    border: $card-light-border;
+
+    .card-subtitle {
+        color: $card-light-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-light-header;
+    }
+
+    div, p {
+        color: $card-light-content;
+    }
+}
+
+.card-dark {
+
+    border: $card-dark-border;
+    background-color: $card-dark-background;
+
+    .card-subtitle {
+        color: $card-dark-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-dark-header;
+    }
+
+    div, p {
+        color: $card-dark-content;
+    }
+}
+
+.card-sea {
+
+    border: $card-sea-border;
+    background-color: $card-sea-background;
+
+    .card-subtitle {
+        color: $card-sea-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-sea-header;
+    }
+
+    div, p {
+        color: $card-sea-content;
+    }
+}
+
+.card-fire {
+
+    border: $card-fire-border;
+    background-color: $card-fire-background;
+
+    .card-subtitle {
+        color: $card-fire-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-fire-header;
+    }
+
+    div, p {
+        color: $card-fire-content;
+    }
+}
+
+.card-forest {
+
+    border: $card-forest-border;
+    background-color: $card-forest-background;
+
+    .card-subtitle {
+        color: $card-forest-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-forest-header;
+    }
+
+    div, p {
+        color: $card-forest-content;
+    }
+}
+
+.card-earth {
+
+    border: $card-earth-border;
+    background-color: $card-earth-background;
+
+    .card-subtitle {
+        color: $card-earth-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-earth-header;
+    }
+
+    div, p {
+        color: $card-earth-content;
+    }
+}
+
+.card-air {
+
+    border: $card-air-border;
+    background-color: $card-air-background;
+
+    .card-subtitle {
+        color: $card-air-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-air-header;
+    }
+
+    div, p {
+        color: $card-air-content;
+    }
+}
+
+.card-winter {
+
+    border: $card-winter-border;
+    background-color: $card-winter-background;
+
+    .card-subtitle {
+        color: $card-winter-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-winter-header;
+    }
+
+    div, p {
+        color: $card-winter-content;
+    }
+}
+
+.card-autumn {
+
+    border: $card-autumn-border;
+    background-color: $card-autumn-background;
+
+    .card-subtitle {
+        color: $card-autumn-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-autumn-header;
+    }
+
+    div, p {
+        color: $card-autumn-content;
+    }
+}
+
+.card-lotus {
+
+    border: $card-lotus-border;
+    background-color: $card-lotus-background;
+
+    .card-subtitle {
+        color: $card-lotus-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-lotus-header;
+    }
+
+    div, p {
+        color: $card-lotus-content;
+    }
+}
+
+.card-gold {
+
+    border: $card-gold-border;
+    background-color: $card-gold-background;
+
+    .card-subtitle {
+        color: $card-gold-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-gold-header;
+    }
+
+    div, p {
+        color: $card-gold-content;
+    }
+}
+
+.card-leaf {
+
+    border: $card-leaf-border;
+    background-color: $card-leaf-background;
+
+    .card-subtitle {
+        color: $card-leaf-subtitle;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $card-leaf-header;
+    }
+
+    div, p {
+        color: $card-leaf-content;
+    }
+}
+
+
+/* Card rounded */
+.card-rounded {
+    border-radius: 6px;
+}
+

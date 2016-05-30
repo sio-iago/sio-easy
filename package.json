@@ -1,0 +1,16 @@
+{
+  "name": "sio-easy",
+  "version": "0.1.0",
+  "description": "SIO Easy CSS is a CSS Library for easy styling applications with a lot of components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iago Oliveira da Silva",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
