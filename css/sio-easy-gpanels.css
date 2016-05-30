@@ -1,0 +1,30 @@
+/* ========================== */
+/* SIO Easy Common Variables  */
+/* ========================== */
+/* ========================== */
+/* SIO Easy Common Variables  */
+/* ========================== */
+/* Light */
+/* Dark */
+/* Sea */
+/* Fire */
+/* Forest */
+/* Earth */
+/* Air */
+/* Winter */
+/* Autumn */
+/* Lotus */
+/* Gold */
+/* Leaf */
+/* ========================== */
+/* SIO Easy Ghost Panels      */
+/* ========================== */
+.gpanel {
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .gpanel .ghost-img {
+    display: none; }
+  .gpanel .gpanel-body {
+    padding: 12px; }
+
+/*# sourceMappingURL=sio-easy-gpanels.css.map */

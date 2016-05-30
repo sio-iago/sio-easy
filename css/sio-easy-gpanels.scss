@@ -1,0 +1,332 @@
+/* ========================== */
+/* SIO Easy Common Variables  */
+/* ========================== */
+@import "sio-easy-common";
+
+
+/* ========================== */
+/* SIO Easy Ghost Panels      */
+/* ========================== */
+.gpanel {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 0px;
+
+  .img-ghost {
+    display: none;
+  }
+
+  .gpanel-body {
+    padding: 12px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 0px 5px;
+  }
+
+  div,p {
+    font-weight: 300;
+  }
+
+  hr {
+    border: 0;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 1px;
+  }
+
+}
+
+.gpanel-light {
+
+  border: $light-border;
+  background-color: $light-background;
+
+  .gpanel-body {
+
+    background-color: $light-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $light-header;
+    }
+
+    div, p {
+      color: $light-content;
+    }
+
+    hr {
+      background-color: $light-subtitle;
+    }
+
+  }
+}
+
+.gpanel-dark {
+
+  border: $dark-border;
+  background-color: $dark-background;
+
+  .gpanel-body {
+
+    background-color: $dark-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $dark-header;
+    }
+
+    div, p {
+      color: $dark-content;
+    }
+
+    hr {
+      background-color: $dark-subtitle;
+    }
+
+  }
+}
+
+.gpanel-sea {
+
+   border: $sea-border;
+   background-color: $sea-background;
+
+   .gpanel-body {
+
+     background-color: $sea-background-alpha;
+
+     h1,h2,h3,h4,h5,h6 {
+       color: $sea-header;
+     }
+
+     div, p {
+       color: $sea-content;
+     }
+
+     hr {
+       background-color: $sea-subtitle;
+     }
+
+   }
+ }
+
+.gpanel-fire {
+
+  border: $fire-border;
+  background-color: $fire-background;
+
+  .gpanel-body {
+
+    background-color: $fire-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $fire-header;
+    }
+
+    div, p {
+      color: $fire-content;
+    }
+
+    hr {
+      background-color: $fire-subtitle;
+    }
+
+  }
+}
+
+.gpanel-forest {
+
+  border: $forest-border;
+  background-color: $forest-background;
+
+  .gpanel-body {
+
+    background-color: $forest-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $forest-header;
+    }
+
+    div, p {
+      color: $forest-content;
+    }
+
+    hr {
+      background-color: $forest-subtitle;
+    }
+
+  }
+}
+
+
+.gpanel-earth {
+
+  border: $earth-border;
+  background-color: $earth-background;
+
+  .gpanel-body {
+
+    background-color: $earth-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $earth-header;
+    }
+
+    div, p {
+      color: $earth-content;
+    }
+
+    hr {
+      background-color: $earth-subtitle;
+    }
+
+  }
+}
+
+.gpanel-air {
+
+  border: $air-border;
+  background-color: $air-background;
+
+  .gpanel-body {
+
+    background-color: $air-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $air-header;
+    }
+
+    div, p {
+      color: $air-content;
+    }
+
+    hr {
+      background-color: $air-subtitle;
+    }
+
+  }
+}
+
+.gpanel-winter {
+
+  border: $winter-border;
+  background-color: $winter-background;
+
+  .gpanel-body {
+
+    background-color: $winter-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $winter-header;
+    }
+
+    div, p {
+      color: $winter-content;
+    }
+
+    hr {
+      background-color: $winter-subtitle;
+    }
+
+  }
+}
+
+.gpanel-autumn {
+
+  border: $autumn-border;
+  background-color: $autumn-background;
+
+  .gpanel-body {
+
+    background-color: $autumn-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $autumn-header;
+    }
+
+    div, p {
+      color: $autumn-content;
+    }
+
+    hr {
+      background-color: $autumn-subtitle;
+    }
+
+  }
+}
+
+.gpanel-lotus {
+
+  border: $lotus-border;
+  background-color: $lotus-background;
+
+  .gpanel-body {
+
+    background-color: $lotus-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $lotus-header;
+    }
+
+    div, p {
+      color: $lotus-content;
+    }
+
+    hr {
+      background-color: $lotus-subtitle;
+    }
+
+  }
+}
+
+.gpanel-gold {
+
+  border: $gold-border;
+  background-color: $gold-background;
+
+  .gpanel-body {
+
+    background-color: $gold-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $gold-header;
+    }
+
+    div, p {
+      color: $gold-content;
+    }
+
+    hr {
+      background-color: $gold-subtitle;
+    }
+
+  }
+}
+
+.gpanel-leaf {
+
+  border: $leaf-border;
+  background-color: $leaf-background;
+
+  .gpanel-body {
+
+    background-color: $leaf-background-alpha;
+
+    h1,h2,h3,h4,h5,h6 {
+      color: $leaf-header;
+    }
+
+    div, p {
+      color: $leaf-content;
+    }
+
+    hr {
+      background-color: $leaf-subtitle;
+    }
+
+  }
+}

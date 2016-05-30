@@ -1,90 +1,7 @@
 /* ========================== */
 /* SIO Easy Custom Variables  */
 /* ========================== */
-
-/* Card Light */
-$card-light-background: #fff;
-$card-light-border: 1px solid #ececec;
-$card-light-header: #0f0f0f;
-$card-light-subtitle: #b2b2b2;
-$card-light-content: #5c5c5c;
-
-/* Card Dark */
-$card-dark-background: #2a2a2a;
-$card-dark-border: 1px solid #000;
-$card-dark-header: #fff;
-$card-dark-subtitle: #d4d4d4;
-$card-dark-content: #fff;
-
-/* Card Sea */
-$card-sea-background: #045A9B;
-$card-sea-border: 1px solid #046D8B;
-$card-sea-header: #FFF;
-$card-sea-subtitle: #B8E0EE;
-$card-sea-content: #EFEFEF;
-
-/* Card Fire */
-$card-fire-background: #9F1824;
-$card-fire-border: 1px solid #9F1824;
-$card-fire-header: #FCF2C8;
-$card-fire-subtitle: #F0D1D1;
-$card-fire-content: #FCF2C8;
-
-/* Card Forest */
-$card-forest-background: #DDE2A4;
-$card-forest-border: 1px solid #DDE2A4;
-$card-forest-header: #476144;
-$card-forest-subtitle: #668063;
-$card-forest-content: #476144;
-
-/* Card Earth */
-$card-earth-background: #564334;
-$card-earth-border: 1px solid #564334;
-$card-earth-header: #FFFAB3;
-$card-earth-subtitle: #CFB590;
-$card-earth-content: #FFFAB3;
-
-/* Card Air */
-$card-air-background: #E3F7FE;
-$card-air-border: 1px solid #E3F7FE;
-$card-air-header: #2E4859;
-$card-air-subtitle: #6DA59C;
-$card-air-content: #2E4859;
-
-/* Card Winter */
-$card-winter-background: #EDEDF2;
-$card-winter-border: 1px solid #EDEDF2;
-$card-winter-header: #65727A;
-$card-winter-subtitle: #8F9A9C;
-$card-winter-content: #65727A;
-
-/* Card Autumn */
-$card-autumn-background: #A84818;
-$card-autumn-border: 1px solid #A84818;
-$card-autumn-header: #F6D5AD;
-$card-autumn-subtitle: #F6B794;
-$card-autumn-content: #F6D5AD;
-
-/* Card Lotus */
-$card-lotus-background: #571B3C;
-$card-lotus-border: 1px solid #571B3C;
-$card-lotus-header: #F8DFCF;
-$card-lotus-subtitle: #DFBFCF;
-$card-lotus-content: #F8DFCF;
-
-/* Card Gold */
-$card-gold-background: #C39738;
-$card-gold-border: 1px solid #C39738;
-$card-gold-header: #5E4318;
-$card-gold-subtitle: #7F4311;
-$card-gold-content: #5E4318;
-
-/* Card Leaf */
-$card-leaf-background: #6AAD1C;
-$card-leaf-border: 1px solid #A7CD2C;
-$card-leaf-header: #F0F2DD;
-$card-leaf-subtitle: #E2FF9E;
-$card-leaf-content: #F0F2DD;
+@import "sio-easy-common";
 
 /* ========================== */
 /* SIO Easy Easy Cards Style  */
@@ -127,217 +44,217 @@ $card-leaf-content: #F0F2DD;
 
 .card-light {
 
-    background-color: $card-light-background;
-    border: $card-light-border;
+    background-color: $light-background;
+    border: $light-border;
 
     .card-subtitle {
-        color: $card-light-subtitle;
+        color: $light-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-light-header;
+        color: $light-header;
     }
 
     div, p {
-        color: $card-light-content;
+        color: $light-content;
     }
 }
 
 .card-dark {
 
-    border: $card-dark-border;
-    background-color: $card-dark-background;
+    border: $dark-border;
+    background-color: $dark-background;
 
     .card-subtitle {
-        color: $card-dark-subtitle;
+        color: $dark-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-dark-header;
+        color: $dark-header;
     }
 
     div, p {
-        color: $card-dark-content;
+        color: $dark-content;
     }
 }
 
 .card-sea {
 
-    border: $card-sea-border;
-    background-color: $card-sea-background;
+    border: $sea-border;
+    background-color: $sea-background;
 
     .card-subtitle {
-        color: $card-sea-subtitle;
+        color: $sea-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-sea-header;
+        color: $sea-header;
     }
 
     div, p {
-        color: $card-sea-content;
+        color: $sea-content;
     }
 }
 
 .card-fire {
 
-    border: $card-fire-border;
-    background-color: $card-fire-background;
+    border: $fire-border;
+    background-color: $fire-background;
 
     .card-subtitle {
-        color: $card-fire-subtitle;
+        color: $fire-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-fire-header;
+        color: $fire-header;
     }
 
     div, p {
-        color: $card-fire-content;
+        color: $fire-content;
     }
 }
 
 .card-forest {
 
-    border: $card-forest-border;
-    background-color: $card-forest-background;
+    border: $forest-border;
+    background-color: $forest-background;
 
     .card-subtitle {
-        color: $card-forest-subtitle;
+        color: $forest-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-forest-header;
+        color: $forest-header;
     }
 
     div, p {
-        color: $card-forest-content;
+        color: $forest-content;
     }
 }
 
 .card-earth {
 
-    border: $card-earth-border;
-    background-color: $card-earth-background;
+    border: $earth-border;
+    background-color: $earth-background;
 
     .card-subtitle {
-        color: $card-earth-subtitle;
+        color: $earth-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-earth-header;
+        color: $earth-header;
     }
 
     div, p {
-        color: $card-earth-content;
+        color: $earth-content;
     }
 }
 
 .card-air {
 
-    border: $card-air-border;
-    background-color: $card-air-background;
+    border: $air-border;
+    background-color: $air-background;
 
     .card-subtitle {
-        color: $card-air-subtitle;
+        color: $air-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-air-header;
+        color: $air-header;
     }
 
     div, p {
-        color: $card-air-content;
+        color: $air-content;
     }
 }
 
 .card-winter {
 
-    border: $card-winter-border;
-    background-color: $card-winter-background;
+    border: $winter-border;
+    background-color: $winter-background;
 
     .card-subtitle {
-        color: $card-winter-subtitle;
+        color: $winter-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-winter-header;
+        color: $winter-header;
     }
 
     div, p {
-        color: $card-winter-content;
+        color: $winter-content;
     }
 }
 
 .card-autumn {
 
-    border: $card-autumn-border;
-    background-color: $card-autumn-background;
+    border: $autumn-border;
+    background-color: $autumn-background;
 
     .card-subtitle {
-        color: $card-autumn-subtitle;
+        color: $autumn-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-autumn-header;
+        color: $autumn-header;
     }
 
     div, p {
-        color: $card-autumn-content;
+        color: $autumn-content;
     }
 }
 
 .card-lotus {
 
-    border: $card-lotus-border;
-    background-color: $card-lotus-background;
+    border: $lotus-border;
+    background-color: $lotus-background;
 
     .card-subtitle {
-        color: $card-lotus-subtitle;
+        color: $lotus-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-lotus-header;
+        color: $lotus-header;
     }
 
     div, p {
-        color: $card-lotus-content;
+        color: $lotus-content;
     }
 }
 
 .card-gold {
 
-    border: $card-gold-border;
-    background-color: $card-gold-background;
+    border: $gold-border;
+    background-color: $gold-background;
 
     .card-subtitle {
-        color: $card-gold-subtitle;
+        color: $gold-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-gold-header;
+        color: $gold-header;
     }
 
     div, p {
-        color: $card-gold-content;
+        color: $gold-content;
     }
 }
 
 .card-leaf {
 
-    border: $card-leaf-border;
-    background-color: $card-leaf-background;
+    border: $leaf-border;
+    background-color: $leaf-background;
 
     .card-subtitle {
-        color: $card-leaf-subtitle;
+        color: $leaf-subtitle;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: $card-leaf-header;
+        color: $leaf-header;
     }
 
     div, p {
-        color: $card-leaf-content;
+        color: $leaf-content;
     }
 }
 
