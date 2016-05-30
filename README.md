@@ -6,6 +6,7 @@ Under MIT License.
 ## Demos
 
 * [Cards Component Demo](http://sio-iago.github.io/cards.html)
+* [Ghost Panels Component Demo](http://sio-iago.github.io/gpanels.html)
 
 ## Requirements for development
 
