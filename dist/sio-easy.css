@@ -1,0 +1,172 @@
+/* ========================== */
+/* SIO Easy Custom Variables  */
+/* ========================== */
+/* Card Light */
+/* Card Dark */
+/* Card Sea */
+/* Card Fire */
+/* Card Forest */
+/* Card Earth */
+/* Card Air */
+/* Card Winter */
+/* Card Autumn */
+/* Card Lotus */
+/* Card Gold */
+/* Card Leaf */
+/* ========================== */
+/* SIO Easy Easy Cards Style  */
+/* ========================== */
+.card {
+  padding: 0px;
+  /* Image settings */
+  /* Header settings */
+  /* Body settings */ }
+  .card img {
+    width: 100%; }
+  .card .card-header {
+    padding: 12px 0 10px 12px; }
+    .card .card-header h1, .card .card-header h2, .card .card-header h3, .card .card-header h4, .card .card-header h5, .card .card-header h6 {
+      margin: 0;
+      font-weight: 300; }
+    .card .card-header .card-subtitle {
+      padding-top: 6px; }
+  .card .card-body {
+    padding: 10px 12px;
+    font-weight: 300; }
+    .card .card-body p {
+      font-size: 90%; }
+
+.card-light {
+  background-color: #fff;
+  border: 1px solid #ececec; }
+  .card-light .card-subtitle {
+    color: #b2b2b2; }
+  .card-light h1, .card-light h2, .card-light h3, .card-light h4, .card-light h5, .card-light h6 {
+    color: #0f0f0f; }
+  .card-light div, .card-light p {
+    color: #5c5c5c; }
+
+.card-dark {
+  border: 1px solid #000;
+  background-color: #2a2a2a; }
+  .card-dark .card-subtitle {
+    color: #d4d4d4; }
+  .card-dark h1, .card-dark h2, .card-dark h3, .card-dark h4, .card-dark h5, .card-dark h6 {
+    color: #fff; }
+  .card-dark div, .card-dark p {
+    color: #fff; }
+
+.card-sea {
+  border: 1px solid #046D8B;
+  background-color: #045A9B; }
+  .card-sea .card-subtitle {
+    color: #B8E0EE; }
+  .card-sea h1, .card-sea h2, .card-sea h3, .card-sea h4, .card-sea h5, .card-sea h6 {
+    color: #FFF; }
+  .card-sea div, .card-sea p {
+    color: #EFEFEF; }
+
+.card-fire {
+  border: 1px solid #9F1824;
+  background-color: #9F1824; }
+  .card-fire .card-subtitle {
+    color: #F0D1D1; }
+  .card-fire h1, .card-fire h2, .card-fire h3, .card-fire h4, .card-fire h5, .card-fire h6 {
+    color: #FCF2C8; }
+  .card-fire div, .card-fire p {
+    color: #FCF2C8; }
+
+.card-forest {
+  border: 1px solid #DDE2A4;
+  background-color: #DDE2A4; }
+  .card-forest .card-subtitle {
+    color: #668063; }
+  .card-forest h1, .card-forest h2, .card-forest h3, .card-forest h4, .card-forest h5, .card-forest h6 {
+    color: #476144; }
+  .card-forest div, .card-forest p {
+    color: #476144; }
+
+.card-earth {
+  border: 1px solid #564334;
+  background-color: #564334; }
+  .card-earth .card-subtitle {
+    color: #CFB590; }
+  .card-earth h1, .card-earth h2, .card-earth h3, .card-earth h4, .card-earth h5, .card-earth h6 {
+    color: #FFFAB3; }
+  .card-earth div, .card-earth p {
+    color: #FFFAB3; }
+
+.card-air {
+  border: 1px solid #E3F7FE;
+  background-color: #E3F7FE; }
+  .card-air .card-subtitle {
+    color: #6DA59C; }
+  .card-air h1, .card-air h2, .card-air h3, .card-air h4, .card-air h5, .card-air h6 {
+    color: #2E4859; }
+  .card-air div, .card-air p {
+    color: #2E4859; }
+
+.card-winter {
+  border: 1px solid #EDEDF2;
+  background-color: #EDEDF2; }
+  .card-winter .card-subtitle {
+    color: #8F9A9C; }
+  .card-winter h1, .card-winter h2, .card-winter h3, .card-winter h4, .card-winter h5, .card-winter h6 {
+    color: #65727A; }
+  .card-winter div, .card-winter p {
+    color: #65727A; }
+
+.card-autumn {
+  border: 1px solid #A84818;
+  background-color: #A84818; }
+  .card-autumn .card-subtitle {
+    color: #F6B794; }
+  .card-autumn h1, .card-autumn h2, .card-autumn h3, .card-autumn h4, .card-autumn h5, .card-autumn h6 {
+    color: #F6D5AD; }
+  .card-autumn div, .card-autumn p {
+    color: #F6D5AD; }
+
+.card-lotus {
+  border: 1px solid #571B3C;
+  background-color: #571B3C; }
+  .card-lotus .card-subtitle {
+    color: #DFBFCF; }
+  .card-lotus h1, .card-lotus h2, .card-lotus h3, .card-lotus h4, .card-lotus h5, .card-lotus h6 {
+    color: #F8DFCF; }
+  .card-lotus div, .card-lotus p {
+    color: #F8DFCF; }
+
+.card-gold {
+  border: 1px solid #C39738;
+  background-color: #C39738; }
+  .card-gold .card-subtitle {
+    color: #7F4311; }
+  .card-gold h1, .card-gold h2, .card-gold h3, .card-gold h4, .card-gold h5, .card-gold h6 {
+    color: #5E4318; }
+  .card-gold div, .card-gold p {
+    color: #5E4318; }
+
+.card-leaf {
+  border: 1px solid #A7CD2C;
+  background-color: #6AAD1C; }
+  .card-leaf .card-subtitle {
+    color: #E2FF9E; }
+  .card-leaf h1, .card-leaf h2, .card-leaf h3, .card-leaf h4, .card-leaf h5, .card-leaf h6 {
+    color: #F0F2DD; }
+  .card-leaf div, .card-leaf p {
+    color: #F0F2DD; }
+
+/* Card rounded */
+.card-rounded {
+  border-radius: 6px; }
+
+/* ========================== */
+/* SIO Easy Shadows           */
+/* ========================== */
+.shadow {
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.5s; }
+  .shadow:hover {
+    box-shadow: 1px 6px 10px 0 rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=sio-easy.css.map */

@@ -1,0 +1,10 @@
+/* ========================== */
+/* SIO Easy Shadows           */
+/* ========================== */
+.shadow {
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.5s; }
+  .shadow:hover {
+    box-shadow: 1px 6px 10px 0 rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=sio-shadow.css.map */
