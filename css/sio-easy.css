@@ -36,7 +36,7 @@
   .card img {
     width: 100%; }
   .card .card-header {
-    padding: 12px 0 10px 12px; }
+    padding: 12px; }
     .card .card-header h1, .card .card-header h2, .card .card-header h3, .card .card-header h4, .card .card-header h5, .card .card-header h6 {
       margin: 0;
       font-weight: 300; }
@@ -171,6 +171,9 @@
 /* Card rounded */
 .card-rounded {
   border-radius: 6px; }
+  .card-rounded img {
+    border: 0px;
+    border-radius: 6px; }
 
 /* ========================== */
 /* SIO Easy Common Variables  */
